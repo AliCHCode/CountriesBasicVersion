@@ -2,13 +2,30 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: aqua;
+    background-color:greenyellow;
 }
 
 body{
     max-width: 1440px;
+    margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
     gap: 50px;
     padding: 50px 150px;
     font-family: 'barlow',sans-serif;
+}
+
+
+.countryBox{
+    width: 210px;
+    border: 1px solid gray;
+    padding: 15px;
+    p:nth-child(2){
+        margin-bottom: 5px;
+    }
+}
+.mainFlag{
+    width: 180px;
+    height: 120px;
+    margin-bottom: 10px;
 }
